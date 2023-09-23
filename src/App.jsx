@@ -21,7 +21,7 @@ function App() {
     const wealthTotal = income + assets;
 
     // Calculate liabilityTotal as the sum of loanAmount and mortgage
-    const liabilityTotal = (loanAmount *loanTerm)+ mortgage;
+    const liabilityTotal = (loanAmount * loanTerm)+ mortgage;
 
     // Calculate the wealth-to-liability ratio as a percentage
     const wealthToLiabilityRatio = (wealthTotal / liabilityTotal) * 100;
